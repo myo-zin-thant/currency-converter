@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="currency-converter.css" />
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="user-input-section">
+        <h1 class="main-header">Currency Converter</h1>
+        <input type="text" class="userInput" placeholder="USD" />
+        <button onclick="convertCurrency()">Convert</button>
+      </div>
+      <div class="sections">
+        <div class="myanmar-kyat">
+          <h2 class="myanmar-kyat-heading">Myanmar Kyat</h2>
+          <p class="converted-currency">
+            <span class="mmk"></span>&nbsp; Kyats
+          </p>
+        </div>
+
+        <div class="thai-baht">
+          <h2 class="thai-baht-heading">Thai Baht</h2>
+          <p class="converted-currency">
+            <span class="thai"></span>&nbsp; Baht
+          </p>
+        </div>
+
+        <div class="japanese-yen">
+          <h2 class="japanese-yen-heading">Japanese Yen</h2>
+          <p class="converted-currency"><span class="jpn"></span>&nbsp; Yen</p>
+        </div>
+      </div>
+    </div>
+    <script src="currency.js"></script>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  height: 100%;
+  width: 474px;
+  height: 541px;
+  margin: 20vh auto;
+  background-color: #ccc;
+  border-radius: 15px;
+}
+
+.user-input-section {
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a18df3;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.main-header {
+  margin-top: 25px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+input {
+  width: 112px;
+  height: 45px;
+  padding: 9px 44px;
+  margin-top: 17px;
+  border-radius: 5px;
+  border: 1px solid #f5f2ff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+button {
+  margin-top: 16px;
+  margin-bottom: 18px;
+  width: 85px;
+  height: 27px;
+  padding: 6px 18px;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+.sections {
+  background-color: #ccc;
+}
+.myanmar-kyat,
+.thai-baht,
+.japanese-yen {
+  width: 439px;
+  height: 95px;
+  margin-top: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.myanmar-kyat-heading,
+.thai-baht-heading,
+.japanese-yen-heading {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.converted-currency {
+  margin-top: 17px;
+  color: #747474;
+  font-size: 16px;
+  font-weight: 600;
+}
