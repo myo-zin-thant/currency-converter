@@ -5,9 +5,9 @@
 // rate.toFixed(2); //1859.66
 
 let currencyRates = {
-  mmk: 1851.26,
-  baht: 36.07,
-  yen: 135.78,
+  mmk: 2950,
+  baht: 80,
+  yen: 15.36,
 };
 
 const userInputEl = document.querySelector(".userInput");
